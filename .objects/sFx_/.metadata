@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome TN Utility Bill Portal",
+  "Type": "App",
+  "Id": "sFx_VOUu1keKipNTzcT4yA",
+  "Reference": "6zIjE3cuXUChsgPCeZGP0w/sFx_VOUu1keKipNTzcT4yA",
+  "Created": "2026-03-21T09:44:26.5039758Z",
+  "Updated": "2026-03-21T09:44:26.5039758Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

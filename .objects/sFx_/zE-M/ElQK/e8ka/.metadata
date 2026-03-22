@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Ravi Kumar",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "e8ka6r5nu0G6TIzB183I9A",
+  "Reference": "6zIjE3cuXUChsgPCeZGP0w/e8ka6r5nu0G6TIzB183I9A",
+  "ParentRef": "6zIjE3cuXUChsgPCeZGP0w/ElQK_Ih1KkerE4z48Cl3kw",
+  "Created": "2026-03-21T13:29:58.9691914Z",
+  "Updated": "2026-03-21T13:29:58.9691914Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="epdpHp5ONEqNh7p9qmU_Eg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="" CVScreenId="f646fac5-975e-4d0d-b05c-5546ac3acd2f" CvType="AnyWordGroup" DesignTimeRectangle="1007, 854, 252, 59" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='dueDate' tableRow='4' tag='TD' /&gt;" Guid="ef8ee72d-b6bf-490d-b67d-bab2a35524a2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TN Utility Bill Portal' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f646fac5-975e-4d0d-b05c-5546ac3acd2f" CvTextArea="674, 872, 106, 24" CvTextArgument="Due Date" CvType="Text" DesignTimeRectangle="660, 854, 347, 59" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' class='' aaname='Due Date' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Due Date' /&gt;" Guid="91035f62-5fc4-424c-af88-54b975405fe7" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="123f61950827f970782e0b226d8636c8.jpg" xmlns="">0UI121sU-i0-CHh8JwOmcew</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

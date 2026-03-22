@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Bill Amount(1)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "1B36ZP4kgUmgUkXJFOTr4g",
+  "Reference": "6zIjE3cuXUChsgPCeZGP0w/1B36ZP4kgUmgUkXJFOTr4g",
+  "ParentRef": "6zIjE3cuXUChsgPCeZGP0w/ElQK_Ih1KkerE4z48Cl3kw",
+  "Created": "2026-03-21T14:16:36.1824335Z",
+  "Updated": "2026-03-21T14:16:36.1824335Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

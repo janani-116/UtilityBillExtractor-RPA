@@ -1,0 +1,14 @@
+﻿{
+  "Name": "₹1250",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "Kfv8ecd6vUSVWlU4IVNRxg",
+  "Reference": "6zIjE3cuXUChsgPCeZGP0w/Kfv8ecd6vUSVWlU4IVNRxg",
+  "ParentRef": "6zIjE3cuXUChsgPCeZGP0w/ElQK_Ih1KkerE4z48Cl3kw",
+  "Created": "2026-03-21T13:32:01.0020914Z",
+  "Updated": "2026-03-21T13:32:01.0020914Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

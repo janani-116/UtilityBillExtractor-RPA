@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lk2gwFQrCkWj1SSwh1kwVg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="" CVScreenId="bd47ec81-fecf-4ec1-88bc-af3e1dc66f5d" CvTextArea="1019, 872, 127, 24" CvTextArgument="2026-03-28" CvType="Text" DesignTimeRectangle="1007, 854, 252, 59" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='dueDate' type='' tag='TD' class='' aaname='2026-03-28' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='2026-03-28' /&gt;" Guid="7dd5c216-b28b-4626-8026-d83397dbc37c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TN Utility Bill Portal' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="bd47ec81-fecf-4ec1-88bc-af3e1dc66f5d" CvTextArea="674, 872, 106, 24" CvTextArgument="Due Date" CvType="Text" DesignTimeRectangle="660, 854, 347, 59" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' class='' aaname='Due Date' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Due Date' /&gt;" Guid="1a9f3566-6f55-45dc-9d36-4ef755de29ae" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="123f61950827f970782e0b226d8636c8.jpg" xmlns="">0khKnKTW4e0WWj57bIfnD8w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

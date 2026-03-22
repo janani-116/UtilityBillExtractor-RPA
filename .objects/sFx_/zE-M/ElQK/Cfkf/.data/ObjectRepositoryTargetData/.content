@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="z4tR01p1n0yWq8plUq3Cvw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="" CVScreenId="5ceeafb5-977b-46e4-8927-fde8a4d39c75" CvType="AnyWordGroup" DesignTimeRectangle="1029, 794, 129, 24" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="4e307643-994e-486f-b1de-f1449ccfc4ee" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='TN Utility Bill Portal - Google Chrome' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="5ceeafb5-977b-46e4-8927-fde8a4d39c75" CvTextArea="684, 794, 108, 24" CvTextArgument="Due Date" CvType="Text" DesignTimeRectangle="684, 794, 108, 24" ElementType="Text" Guid="5f012c89-7064-4481-bbc6-53e0de859509" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c43dddaa2e03e9fc07b042d077fbc5f4.jpg" xmlns="">02wCA-9jhBUyGXf9DMaI4fw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="53c8vEPyME2kY5rqjhySww" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="" CVScreenId="5ceeafb5-977b-46e4-8927-fde8a4d39c75" CvType="AnyWordGroup" DesignTimeRectangle="1032, 617, 129, 24" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="7296dd8f-5ef2-4c47-a1d3-b942dd2f4330" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='TN Utility Bill Portal - Google Chrome' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="61b628272c58d5f5b291774b9451a1ac.jpg" xmlns="">0HnKC9wxzU0WefHNrR3AkkA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

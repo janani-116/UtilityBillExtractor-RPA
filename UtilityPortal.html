@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TN Utility Bill Portal</title>
+  <style>
+    body { font-family: Arial; background: #f0f4f8; display: flex; justify-content: center; padding: 40px; }
+    .container { background: white; padding: 30px; border-radius: 10px; width: 400px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+    h2 { color: #2c3e50; text-align: center; }
+    input { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box; }
+    button { width: 100%; padding: 10px; background: #2980b9; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; }
+    button:hover { background: #1a6a9a; }
+    .bill-details { margin-top: 20px; }
+    .bill-details table { width: 100%; border-collapse: collapse; }
+    .bill-details td { padding: 10px; border: 1px solid #ddd; }
+    .bill-details td:first-child { font-weight: bold; background: #f7f9fc; }
+    .status-due { color: red; font-weight: bold; }
+    .status-paid { color: green; font-weight: bold; }
+    #resultDiv { display: none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>⚡ TN Utility Bill Portal</h2>
+    <input type="text" id="customerId" placeholder="Enter Customer ID (e.g. TN001)" />
+    <button onclick="fetchBill()">Get Bill Details</button>
+
+    <div id="resultDiv" class="bill-details">
+      <h3>Bill Details</h3>
+      <table>
+        <tr><td>Customer Name</td><td id="custName"></td></tr>
+        <tr><td>Customer ID</td><td id="custId"></td></tr>
+        <tr><td>Bill Amount</td><td id="billAmount"></td></tr>
+        <tr><td>Due Date</td><td id="dueDate"></td></tr>
+        <tr><td>Status</td><td id="status"></td></tr>
+      </table>
+    </div>
+  </div>
+
+  <script>
+    const bills = {
+      "TN001": { name: "Ravi Kumar", amount: "1250", due: "2026-03-28", status: "Unpaid" },
+      "TN002": { name: "Priya Sharma", amount: "980", due: "2026-03-25", status: "Unpaid" },
+      "TN003": { name: "Arun Selvam", amount: "1540", due: "2026-04-05", status: "Unpaid" },
+      "TN004": { name: "Meena Raj", amount: "760", due: "2026-03-22", status: "Paid" },
+      "TN005": { name: "Karthik B", amount: "2100", due: "2026-03-30", status: "Unpaid" }
+    };
+
+    function fetchBill() {
+      const id = document.getElementById("customerId").value.trim().toUpperCase();
+      const data = bills[id];
+      const resultDiv = document.getElementById("resultDiv");
+
+      if (data) {
+        document.getElementById("custName").innerText = data.name;
+        document.getElementById("custId").innerText = id;
+        document.getElementById("billAmount").innerText = data.amount;
+        document.getElementById("dueDate").innerText = data.due;
+        const statusEl = document.getElementById("status");
+        statusEl.innerText = data.status;
+        statusEl.className = data.status === "Paid" ? "status-paid" : "status-due";
+        resultDiv.style.display = "block";
+      } else {
+        alert("Customer ID not found! Try TN001 to TN005");
+        resultDiv.style.display = "none";
+      }
+    }
+
+    // Auto-fetch if ID is in URL
+    window.onload = function() {
+      const params = new URLSearchParams(window.location.search);
+      const id = params.get("id");
+      if (id) {
+        document.getElementById("customerId").value = id;
+        fetchBill();
+      }
+    }
+  </script>
+</body>
+</html>

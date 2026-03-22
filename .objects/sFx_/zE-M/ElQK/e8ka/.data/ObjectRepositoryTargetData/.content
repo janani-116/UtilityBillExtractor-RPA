@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bXy6aPbUOUWCNvrwzQYt-w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="" CVScreenId="1997d885-79d2-4799-86d4-f45cab9602c6" CvTextArea="1020, 695, 130, 22" CvTextArgument="Ravi Kumar" CvType="Text" DesignTimeRectangle="1007, 677, 252, 59" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='custName' tableRow='1' tag='TD' /&gt;" Guid="34e6469c-a57b-4ce3-990f-09cc968b4f45" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TN Utility Bill Portal' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1997d885-79d2-4799-86d4-f45cab9602c6" CvTextArea="672, 695, 189, 24" CvTextArgument="Customer Name" CvType="Text" DesignTimeRectangle="660, 677, 347, 59" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' class='' aaname='Customer Name' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Customer Name' /&gt;" Guid="430fe68f-aeab-4736-8744-396876a834a0" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="57c98148fd308e538b4ba1452a75ff28.jpg" xmlns="">0w2BlFCyLAUe5kSqhJgbo0g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

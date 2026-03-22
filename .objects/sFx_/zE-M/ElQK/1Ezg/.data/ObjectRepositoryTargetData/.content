@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2un5idztAEaLpXe1vmMijA" Reference="6zIjE3cuXUChsgPCeZGP0w/1EzgaTEIzUOm-SCmMjhQ7w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="" CVScreenId="6a4dd873-1b39-406b-a6e5-e677fd6eb469" CvElementArea="669, 458, 603, 57" CvType="InputBox" DesignTimeRectangle="671, 459, 600, 55" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='customerId' tag='INPUT' /&gt;" Guid="e5fb1a34-56d3-4531-ae4a-8216949cdb52" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TN Utility Bill Portal' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="bc8ddb4824db9348539fd2c1bd113b0a.jpg" xmlns="">0NvGr0vLoHEiWAatLiujUFw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

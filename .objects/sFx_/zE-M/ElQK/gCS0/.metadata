@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Unpaid",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "gCS0O-YcTECTQ_xV6HGgQQ",
+  "Reference": "6zIjE3cuXUChsgPCeZGP0w/gCS0O-YcTECTQ_xV6HGgQQ",
+  "ParentRef": "6zIjE3cuXUChsgPCeZGP0w/ElQK_Ih1KkerE4z48Cl3kw",
+  "Created": "2026-03-21T13:35:22.4410813Z",
+  "Updated": "2026-03-21T13:35:22.4410813Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
